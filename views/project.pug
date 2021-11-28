@@ -31,9 +31,8 @@ block content
     .project-img-box.box
 
       //- Add URLs to project images, and add descriptions
-      img.project-img(src=`${projectToShow.image_urls[1]}`, alt='project-image-1')
-      img.project-img(src=`${projectToShow.image_urls[2]}`, alt='project-image-2')
-      img.project-img(src=`${projectToShow.image_urls[3]}`, alt='project-image-3')
+      each image in projectToShow.image_urls
+        img.project-img(src=`${image}`, style='width:1200px;height:550px', alt='project-image')
 
     nav.nav
       a(href='/')

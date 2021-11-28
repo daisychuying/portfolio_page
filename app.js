@@ -30,7 +30,7 @@ app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
     err.message = 'Page Not Found.';
-    console.log(err.status, err.message);
+    console.log('404 error handler called');
     //pass error to global error handler
     next(err);
 })
@@ -43,7 +43,7 @@ app.use((err, req, res, next) => {
     } else {
         err.message = err.message || 'Something went wrong on the server.';
         res.status(err.status || 500);
-        console.log(err.status, err.message)
+        console.log('Global error handler called', err);
         res.render('error', { err });
     }
 })
