@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://daisychuying.github.io/quote-generator/",
+            "github_link": "https://github.com/daisychuying/quote-generator",
+            "image_urls": ["/static/images/randomquote-main.png", "/static/images/randomquote-1.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A program that displays pages of students data that user can easily navigate and view.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://daisychuying.github.io/project2-data-pagination-and-filtering/",
+            "github_link": "https://github.com/daisychuying/project2-data-pagination-and-filtering",
+            "image_urls": ["/static/images/pagination-main.png", "/static/images/pagination-1.png", "/static/images/pagination-2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive form that collects information from users.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://daisychuying.github.io/interactive-form-v3/",
+            "github_link": "https://github.com/daisychuying/interactive-form-v3",
+            "image_urls": ["/static/images/form-main.png", "/static/images/form-1.png", "/static/images/form-2.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App: Phrase Hunter",
+            "description": "A browser-based, word guessing game: Phrase Hunter in which the program will select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+            "technologies": ["JavaScript", "CSS", "HTML", "OOP"],
+            "live_link": "https://daisychuying.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/daisychuying/oop-game-show-app",
+            "image_urls": ["/static/images/phrasehunt-main.png", "/static/images/phrasehunt-1.png", "/static/images/phrasehunt-2.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "A program that displays employee directory by communicating with a third-party API",
+            "technologies": ["JavaScript", "CSS", "HTML", "Public API"],
+            "live_link": "https://daisychuying.github.io/public-api-request/",
+            "github_link": "https://github.com/daisychuying/public-api-request",
+            "image_urls": ["/static/images/employeepublicapi-main.png", "/static/images/employeepublicapi-1.png", "/static/images/employeepublicapi-2.png"]
+        }
+    ]
+
+
+
+}

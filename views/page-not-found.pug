@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+  div.container 
+    h1 #{err.status} - #{err.message}
+    h2= `It looks like the page you are looking for does not exist.`
+
+    a.home(href=`/`) Home
