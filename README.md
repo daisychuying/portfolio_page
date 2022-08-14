@@ -1,9 +1,16 @@
-# static_node_and_express_site-v1
+# Portfolio Page
 
-Portfolio site
-In this project, I created a gorgeous portfolio site to showcase the projects I've built.
+### Introduction Page
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/58837611/184556158-edd4df95-0dee-4ffe-841e-7b829550555b.png" width="250" height="500">
+</p>
 
-The site contains a portfolio page to display all my projects, an about page to share my contact info and my skills, and projects pages to show details for each project.
+### Project Page
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/58837611/184556162-09822a37-3838-438e-9785-e8c376e2e62d.png" width="250" height="500">
+</p>
 
-When user hover over the button, the background color will change to light grey.
-I also changed the background color of portfolio page, the font size and color of intro-paragraph in about page, and color of project name in the main page.
+### Project Detail Page
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/58837611/184556167-cea7d71d-d91b-4095-85a3-6668d2681a53.png" width="250" height="500">
+</p>
